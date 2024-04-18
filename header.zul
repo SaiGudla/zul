@@ -1,0 +1,9 @@
+<?link rel="stylesheet" type="text/css" href="/style.css"?>
+
+	<hbox hflex="1" sclass="banner" align="center" spacing="32%">
+	
+		<image src="bank.png"  />
+		<label value="BANKING FUNDAS" sclass="banner-head" pre="true" />
+		<image src="penn logo.jpg" />
+
+	</hbox>

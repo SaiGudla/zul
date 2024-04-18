@@ -1,0 +1,24 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<?link rel="stylesheet" type="text/css" href="/style.css"?>
+<zk>
+  
+	<borderlayout hflex="1" vflex="1">
+		<north vflex="min" border="none">
+			<include src="header.zul" />
+		</north>
+		 <west width="15%" border="normal" >
+			<include src="sidebar.zul" />
+		</west>
+		<center  autoscroll="true">
+			<include id="mainInclude" src="main.zul" />
+		</center>
+	</borderlayout>	
+	<zscript>
+<![CDATA[
+  	void loadContent(String url){
+  		mainInclude.setSrc(url);
+  	}
+  	]]>
+</zscript>
+	
+</zk>

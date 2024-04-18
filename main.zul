@@ -1,0 +1,21 @@
+<zk>
+    <div id="slideshowContainer" class="slideshow-container">
+        <image src="HDFC.png" class="slideshow-image" />
+        <image src="SBI.png" class="slideshow-image" />
+        <image src="AXIS.jpg" class="slideshow-image"/>
+    </div>
+    <script><![CDATA[
+        zk.afterMount(function() {
+            var slideshowImages = jq('.slideshow-image');
+            var currentIndex = 0;
+
+            var showSlide = function() {
+                slideshowImages.eq(currentIndex).removeClass('active');
+                currentIndex = (currentIndex + 1) % slideshowImages.length;
+                slideshowImages.eq(currentIndex).addClass('active');
+            };
+            
+            setInterval(showSlide, 3000);
+        });
+    ]]></script>
+</zk>

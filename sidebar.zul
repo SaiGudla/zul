@@ -1,0 +1,24 @@
+<zk>
+	<button label="Show Banks" onClick='listBox.setVisible(!listBox.isVisible())' />
+	<listbox id="listBox" visible="false">
+		<listhead>
+			<listheader label="Banks" />
+		</listhead>
+		<listitem>
+			<listcell>
+				<button label="HDFC Bank" image="HDFC_icon.png" onClick='loadContent("HDFC.zul")' />
+				
+			</listcell>
+		</listitem>
+		<!-- <listitem>
+			<listcell>
+				<button label="AXIS Bank" onClick='loadContent("AXIS.zul")' />
+			</listcell>
+		</listitem>  -->
+		<listitem>
+			<listcell>
+				<button label="SBI" image="SBI_icon.png" onClick='loadContent("SBI.zul")' />
+			</listcell>
+		</listitem>
+	</listbox>
+</zk>

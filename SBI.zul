@@ -1,0 +1,82 @@
+<?link rel="stylesheet" type="text/css" href="/style.css"?>
+
+
+<div>
+	<div align="center" style="margin:10px">
+		<image src="SBI.png" height="120px" width="400px" />
+	</div>
+	<div align="center">
+		<label value="Loans Offered" sclass="main-head" />
+	</div>
+
+	<div sclass="container">
+		<div sclass="box">
+			<div align="center" sclass="imge">
+				<image src="Gold_loan.png" height="100px" width="100px" />
+			</div>
+			<label value="Gold Loan" sclass="sub-head" />
+			<div sclass="line"></div>
+			<label value="Rate of Interest : 9.0% - 12.0%" sclass="sub-head2" />
+			<div>
+				<button label="Apply now" sclass="but" onClick='loadContent("apply_loan.zul")'/>
+			</div>
+
+		</div>
+		<div sclass="box">
+			<div align="center">
+				<image src="home_loan.png" height="100px" width="100px" />
+			</div>
+			<label value="Home Loan" sclass="sub-head" />
+			<div sclass="line"></div>
+
+			<label value="Rate of Interest :  4.5% - 6.5%" sclass="sub-head2" />
+			<div>
+				<button label="Apply now" sclass="but" onClick='loadContent("apply_loan.zul")'/>
+			</div>
+
+		</div>
+		<div sclass="box">
+			<div align="center">
+				<image src="health_loan.png" height="100px" width="100px" />
+			</div>
+			<label value="Medical Loan" sclass="sub-head" />
+			<div sclass="line"></div>
+
+			<label value="Rate of Interest : 9.0% - 12.0%" sclass="sub-head2" />
+			<div>
+				<button label="Apply now" sclass="but" onClick='loadContent("apply_loan.zul")'/>
+			</div>
+
+		</div>
+		<div sclass="box">
+			<div align="center">
+				<image src="edu_loan.png" height="100px" width="100px" />
+			</div>
+			<label value="Education Loan" sclass="sub-head" />
+			<div sclass="line"></div>
+
+			<label value="Rate of Interest : 6.0% - 8.0%" sclass="sub-head2" />
+			<div>
+				<button label="Apply now" sclass="but" onClick='loadContent("apply_loan.zul")' />
+			</div>
+
+
+		</div>
+		<div sclass="box">
+			<div align="center">
+				<image src="mar_loan.png" height="100px" width="100px" />
+			</div>
+			<label value="Wedding Loan" sclass="sub-head" />
+			<div sclass="line"></div>
+
+			<label value="Rate of Interest : 8.0% - 10.0% " sclass="sub-head2" />
+
+			<div>
+				<button label="Apply now" sclass="but" onClick='loadContent("apply_loan.zul")' />
+			</div>
+
+		</div>
+
+
+	</div>
+</div>
